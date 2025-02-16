@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({ 
-  base: "/My_Background_Changer/",
+  base: "/BackGround_Changer",
   plugins: [react()],
 })

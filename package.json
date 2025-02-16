@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/suhanlakshakar89/My_Backgound_Changer.git",
+  "homepage": "https://github.com/suhanlakshakar89/BackGround_Changer.git",
   "name": "04-bg-changer",
   "private": true,
   "version": "0.0.0",
@@ -8,14 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
